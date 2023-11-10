@@ -18,7 +18,10 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Plugins */
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
   },
   "include": ["src/*", "src/**/*.vue", "src/**/*.tsx", "src/**/*.jsx", "src/**/*.ts", "src/**/*.js"],
   "references": [{ "path": "./tsconfig.node.json" }]

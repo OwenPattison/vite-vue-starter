@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="tsx">
 import HelloWorld from './components/HelloWorld.vue'
 import Welcome from "./components/Welcome";
 </script>

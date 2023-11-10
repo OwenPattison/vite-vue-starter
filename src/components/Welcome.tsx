@@ -1,4 +1,6 @@
 import { defineComponent } from 'vue';
+import styles from './Welcome.module.css'
+
 export default defineComponent({
     name: 'Title',
     props: {
@@ -8,6 +10,6 @@ export default defineComponent({
         },
     },
     setup(props) {
-        return () => <h1>{props.name}</h1>;
+        return () => <h1 class={styles.heading}>{props.name}</h1>;
     },
 });
