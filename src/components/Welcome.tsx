@@ -1,7 +1,7 @@
 import { defineComponent } from 'vue';
 import styles from './Welcome.module.css'
 
-export default defineComponent({
+export const Welcome = defineComponent({
     name: 'Title',
     props: {
         name: {

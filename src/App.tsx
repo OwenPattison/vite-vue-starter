@@ -1,7 +1,7 @@
 import { defineComponent } from "vue";
-import Welcome from "./components/Welcome";
+import { Welcome } from "./components/Welcome";
 
-export default defineComponent({
+export const App = defineComponent({
     name: 'App',
     props: {
     },
