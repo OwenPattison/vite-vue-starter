@@ -9,7 +9,7 @@ export const Welcome = defineComponent({
             required: true,
         },
     },
-    setup(props) {
-        return () => <h1 class={styles.heading}>{props.name}</h1>;
+    setup({ name }) {
+        return () => <h1 class={styles.heading}>Hello {name}!</h1>;
     },
 });
