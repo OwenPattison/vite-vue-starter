@@ -13,7 +13,7 @@ describe('something truthy and falsy', () => {
 });
 
 describe('Welcome', () => {
-    it('renders headline', () => {
+    it('renders heading', () => {
         render(Welcome, { props: {
             name: "Owen"
         } });
